@@ -25,6 +25,10 @@ doomDeath.addEventListener("click", function () {
   doomKittyf();
   doomDeath.innerText = "Standard Theme On";
   standardbtn.innerText = "Doom Kitty Theme";
+  document.body.classList.add("grey-background");
+  document.body.classList.remove("background-image");
+
+  document.body;
 });
 
 function doomKittyf() {
@@ -43,6 +47,9 @@ function doomKittyf() {
 
 standardbtn.addEventListener("click", function () {
   standardTheme();
+  standardbtn.innerText = "Doom Kitty Theme On";
+  document.body.classList.remove("grey-background");
+  document.body.classList.add("background-image");
 });
 
 function standardTheme() {

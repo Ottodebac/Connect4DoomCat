@@ -1,12 +1,15 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
-  background-image: url(Images/background.jpeg);
   margin: 0;
 }
 
 .grey-background {
-  background-color: grey;
+  background-color: rgb(176, 164, 164);
+}
+
+.background-image {
+  background-image: url(Images/background.jpeg);
 }
 
 .background-color {
@@ -86,7 +89,7 @@ h1 {
   border: none;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   color: rgb(181, 181, 181);
-  margin-left: 20px;
+  margin: 20px;
 }
 
 .button:hover {
@@ -171,4 +174,7 @@ h1 {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
